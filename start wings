@@ -1,0 +1,8 @@
+node .
+
+curl -sSL https://get.docker.com/ | CHANNEL=stable bash
+
+npm install pm2@latest -g
+pm2 start index.js
+pm2 startup
+pm2 save
