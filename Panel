@@ -1,0 +1,11 @@
+git clone https://github.com/dragonlabsdev/v3panel
+
+curl -sL https://deb.nodesource.com/setup_23.x | sudo bash -
+
+apt-get install nodejs git
+
+cd v3panel
+
+apt install zip -y && unzip panel.zip && cd panel
+
+npm install && npm run seed && npm run createUser
