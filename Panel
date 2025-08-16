@@ -1,3 +1,5 @@
+apt install git -y
+
 git clone https://github.com/dragonlabsdev/v3panel
 
 curl -sL https://deb.nodesource.com/setup_23.x | sudo bash -
